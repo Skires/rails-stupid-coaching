@@ -1,0 +1,45 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+$gray: #F4F4F4;
+
+body {
+  background: $gray; // Using this variable
+  font-family: 'Roboto', sans-serif;
+  background: #DCE35B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.header {
+      font-size: 50px;
+      text-align: center;
+      justify-content: center;
+  }
+
+  a {
+    color: rgb(25, 108, 216);
+    text-decoration: none;
+    &:hover {
+      color: black;
+    }
+  }
+
+  .container {
+      background-color: rgb(255, 255, 176);
+      border-left: 10px solid rgb(214, 214, 214);
+      padding-left: 20px;
+  }
+
+  .content {
+      margin: 10px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+  }
+
+  .link {
+    margin-top: 30px;
+  }
